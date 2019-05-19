@@ -1,0 +1,401 @@
+
+
+* {
+    font-family: 'Gabriela', serif;
+}
+
+body {
+    margin: 0px;
+    color: blueviolet;
+    font-family: 'Pangolin', cursive;
+}
+.contacts-top {
+    width: 100%;
+    position: relative;
+}
+h1 {
+    text-align: center;
+    margin: 0 auto;
+}
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+ a {
+     text-decoration: none;
+     color: black;
+ }
+ a:hover {
+     text-decoration: none;
+     color: black;
+ }
+
+li {
+    list-style: upper-roman;
+}
+.firstContainer {
+    position: relative;
+    background:url(img/bgW.jpg) no-repeat fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.langSets {
+    display: flex;
+    justify-content: flex-end;
+}
+.langUa {
+    float: right;
+    margin-right: 15px;
+    color: white;
+}
+
+.langUa:hover {
+    color: red;
+}
+.langRu {
+    float: right;
+    margin-right: 15px;
+    color: white;
+}
+.langRu:hover {
+    color: red;
+}
+.langRu:active {
+    color: red;
+}
+.secondContainer {
+    background: url(img/bg1.jpg) no-repeat ;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+}
+
+.main-section {
+    width: 100%;
+   
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    height: 6vh;
+    position: fixed;
+    z-index: 1;
+    background:#ffffff;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.navigation a {
+    display: flex;
+    align-items: center;
+    margin: 0px 20px 0px 30px;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+   
+}
+
+.navigation a:hover {
+    text-decoration: none;
+    color: black;
+    font-size: 1.0em;
+    background: #696969;
+    border-radius: 5px;
+    font-size: 1.2em;
+    color: white;
+}
+
+.hideSectiona {
+    position: relative;
+    width: 100%;
+    height: 6vh;
+}
+.firstBlock {
+    position: relative;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+    padding: 10px 0;
+}
+.firstBlock p{
+    padding: 0px 90px;
+    
+}
+
+.secondBlock {
+    position: relative;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 10px 0;
+}
+.secondBlock p{
+    padding: 0px 90px;
+}
+
+.between {
+    width: 100%;
+    height: 150px;
+}
+.thirdBlock {
+    position: relative;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px 0;
+    box-shadow: 1px 3px 1px  rgba(0, 128, 255, 1);  
+}
+.thirdBlock ul {
+    margin: 0 60px;
+}
+.main-section-img {
+    display: flex;   
+    justify-content: space-around;
+    justify-items: center ; 
+    margin: 20px 0 20px 0; 
+    opacity: 0.0;
+}
+.ukrFlag {
+    width: 25%;
+    height: 30%;
+}
+
+.plnFlag {
+  
+    width: 25%;
+    height: 30%;
+}
+.nav-logo {
+    height: 6vh;
+}
+
+.thirdContainer {
+    position: relative;
+    background: url(img/bgW.jpg) no-repeat fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+/* .antiBag::before {
+    content: ".";
+    width: 100%;
+} */
+
+footer {
+    position: relative;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.96);
+    bottom: 0px;
+}
+.footer-phone {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+.footer-adress {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+}
+.howTofindUs {
+    margin: 0 auto;
+}
+.howTofindUs h2 {
+    color: white;
+    padding-top: 20px; 
+}
+
+.howTofindUs p {
+    color: white;
+}
+.howTofindUs a {
+    color: white;
+}
+
+.howTofindUs a:hover {
+    color: #0075bf;
+    text-decoration: none;
+}
+#viber:hover {
+    color: #665CAC;
+}
+
+#telegram {
+    color: white;
+}
+
+#telegram:hover {
+    color: #34ACE0;
+}
+
+.fa-telegram-plane {
+   
+    font-size: 2em;
+}
+
+.fa-ad{
+    color: white;
+    font-size: 2em;
+}
+
+.fa-facebook{
+    color: #3B5998;
+    font-size: 2em;
+}
+.fa-twitter{
+    color: #8AD4DF;
+    font-size: 2em;
+}
+
+.fa-viber {
+    font-size: 2em;
+}
+.fa-mobile-alt {
+    color: white;
+    font-size: 2em;
+}
+
+.fa-at {
+    font-size: 2em;
+    margin-left: 22px;
+}
+
+.fa-map-marked {
+    color: white;
+    font-size: 2em;
+}
+
+footer i {
+    margin:0 20px 0;
+}
+
+
+@media only screen and (max-device-width : 640px) {
+    footer h2 {
+        font-size: 1.8em;
+    }
+
+    .firstContainer {
+        position: relative;
+        background: url(img/bgW.jpg) no-repeat fixed;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .navigation {
+        display: block;
+        width: 100%;
+        height: 40px;
+        position: relative;
+        z-index: 1;
+        background:gray;
+        border-radius: 0px 0px 15px 15px;
+        overflow: hidden;
+        transition: all 1s linear;
+        display: none;
+       
+    }
+
+    .navigation a {
+        margin: 0 auto;
+    }
+    .navigation:hover {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        width: 100%;
+        height: 200px;
+        position: relative;
+        z-index: 1;
+        background:white;
+        border-radius: 0px 0px 15px 15px;
+        /* display: none; */
+    }
+    .firstBlock {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.8);
+        color: white;
+        padding: 0px 20px 0;
+        margin-top:-15px; 
+
+    }
+    .firstBlock p{
+        padding: 0px 10px;
+        
+    }
+    
+    
+    .main-section-img {
+        display: flex;   
+        justify-content: space-around;
+        justify-items: center ;
+        margin: 20px 0 20px 0; 
+        opacity: 0.5;
+    }
+    .secondBlock {
+        position: relative;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        color: white;
+        padding: 10px 15px 10px;
+    }
+    
+    .thirdBlock {
+        position: relative;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.4);
+        color: white;
+        padding: 10px 15px 10px;
+        box-shadow: 1px 3px 1px  rgba(0, 128, 255, 1);  
+    }
+
+    .thirdBlock ul {
+        margin: 0 0px;
+    }
+    /* .thirdBloc ul {
+        margin: 0px;
+    } */
+    .secondBlock p{
+        padding: 0px 10px;
+    } 
+
+    .footer-phone {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        justify-items: center;
+    }
+    
+    .footer-social {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        justify-items: center;
+    }
+    
+    .footer-adress {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        justify-items: center;
+    }
+}
